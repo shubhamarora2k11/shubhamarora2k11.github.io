@@ -1,0 +1,301 @@
+.navbar-brand {
+    max-width: 162px;
+}
+
+.opella-mobile-nav .logo {
+    width: 50%;
+}
+
+.opella-mobile-nav .logo a {
+    max-width: 110px;
+}
+
+.opella-mobile-nav .nav-create-button {
+    margin-right: 10px;
+    background: transparent;
+    border: 1px solid #ffcf58;
+    color: #ffcf58;
+}
+
+.mean-container a.meanmenu-reveal {
+    display: none !important;
+}
+
+.pm-care {
+    display: none;
+}
+
+.pm-care .pm-care-content {
+    margin: 30px 0;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.pm-care .pm-care-content h3 {
+    color: #ffcf58;
+}
+
+.pm-care .pm-care-content h5 {
+    color: #ffffff;
+    line-height: 28px;
+}
+
+.pm-care img {
+    border-radius: 15px;
+}
+
+.pm-care .pm-care-content .create-button {
+    margin-bottom: 30px;
+    color: #0e101b;
+    background-color: #ffcf58;
+}
+
+.pm-care .pm-care-content .donate-button {
+    max-width: 135px;
+}
+
+.pm-care .pm-care-content .donate-button::after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    left: 25px;
+    top: -5px;
+    width: 90px;
+    height: 50px;
+    -webkit-animation: ripple 1.6s ease-out infinite;
+            animation: ripple 1.6s ease-out infinite;
+    opacity: 0;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.5);
+    visibility: visible;
+}
+
+.main-banner-content .btn-box {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-banner-content {
+    color: #ffffff;
+}
+
+.tagline-list {
+    list-style: none;
+    line-height: 33px;
+    font-size: 17px;
+    color: #97d0fc;
+    padding: 0;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.tagline-list li i {
+    color: #2d9bea;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* How it Works homepage */
+.how_it_work_new_block {
+    background-image: url(../img/black-bg5.jpg);
+    font-family: 'Assistant', sans-serif;
+    color: #fff;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+.how_it_work_new_block h2 {
+    font-weight: bold;
+    text-align: center;
+}
+.how_it_work_new_block .item {
+    text-align: center;
+
+}
+.how_it_work_new_block .image {
+    position: relative;
+    max-width: 170px;
+    margin: 0 auto;
+}
+.how_it_work_new_block .num {
+    position: absolute;
+    bottom: 5%;
+    padding: 0px 12px 0px 12px;
+    background: #7ad4ff;
+    border: 3px solid #f4ffff;
+    font-size: 21px;
+    line-height: 34px;
+    font-weight: bold;
+    color: black;
+}
+.how_it_work_new_block .title {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.how_it_work_new_block .subtitle {
+    font-size: 16px;
+    padding-top: 9px;
+    padding-bottom: 15px;
+
+}
+.how_it_work_new_block .button {
+    border: 2px solid;
+    width: auto;
+    display: inline-block;
+    border-color: white;
+    color: white;
+    border-radius: 25px;
+    padding: 6px 40px 6px 40px;
+    margin: 50px auto 75px auto;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    color: white;
+}
+.how_it_work_new_block a{
+    color: white;
+    text-decoration: none;
+}
+.how_it_work_new_block .button:hover{
+    background: black;
+
+}
+
+.how_it_work_new_block .sub-title {
+    color: #2d9bea;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+}
+
+.how_it_work_new_block .sub-title i {
+    background-color: rgba(45,155,234,0.15);
+    color: #2d9bea;
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.samples-area {
+    background-color: #FCFCFC;
+    padding-top: 60px;
+}
+
+.samples-area .row {
+    justify-content: center;
+}
+
+.samples-area .sample-container {
+    text-align: center;
+    max-width: 260px;
+    margin-bottom: 60px;
+}
+
+.samples-area .sample-container img {
+    margin-bottom: 10px;
+}
+
+.samples-area .sub-title {
+    color: #2d9bea;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+}
+
+.samples-area .sub-title i {
+    background-color: rgba(45,155,234,0.15);
+    color: #2d9bea;
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.samples-area h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.section-title span span {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.single-services-box .icon i::before {
+    font-size: 30px;
+}
+
+.footer-logo {
+    max-width: 110px;
+    margin: 0 auto;
+}
+
+.pricing-header .price-wrapper {
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.pricing-header .price-wrapper .value {
+    font-size: 54px;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+}
+
+.pricing-header .p-table-large .price-wrapper .value {
+      font-size: 52px;
+}
+.pricing-header .price-wrapper .curency {
+    position: absolute;
+    top: -12px;
+    font-size: 28px;
+    font-weight: 500;
+    left: -18px;
+}
+.pricing-header .price-wrapper .time {
+    font-size: 30px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+}
+
+.mean-container .mean-bar, .mean-container .mean-bar * {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .how_it_work_new_block .item {
+        margin:20px 0;
+    }
+    .how_it_work_new_block .button {
+        margin-top: 30px;
+        margin-bottom: 65px;
+    }
+}
+/* End How it Works homepage */
+
+@media only screen and (max-width: 991px) {
+    .pm-care {
+        display: block;
+    }
+
+    .main-banner-buttons {
+        display: none;
+    }
+
+    .opella-mobile-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+}
